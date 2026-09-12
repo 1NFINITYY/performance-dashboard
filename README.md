@@ -4,6 +4,21 @@
 
 > Built from scratch — no Chart.js, D3, or external charting libraries. Pure Canvas + SVG hybrid rendering.
 
+🔗 **[Live Demo](https://performance-dashboard-steel-gamma.vercel.app/dashboard)** &nbsp;|&nbsp; 📂 **[GitHub Repo](https://github.com/1NFINITYY/performance-dashboard)**
+
+---
+
+## 📸 Screenshots
+
+![Dashboard Overview](public/screenshot-dashboard.png)
+*Full dashboard — 4 chart types rendering 10,000+ points at 60fps*
+
+![Performance Monitor](public/screenshot-perf-monitor.png)
+*Live FPS counter, memory usage, and render time overlay*
+
+![Stress Test Mode](public/screenshot-stress-test.png)
+*Stress test active — 10× data rate*
+
 ---
 
 ## 🚀 Quick Start
@@ -154,5 +169,5 @@ performance-dashboard/
 │   ├── performanceUtils.ts       ← FPS, memory, throttle
 │   ├── types.ts                  ← All TypeScript interfaces
 │   └── workers/dataWorker.ts    ← Web Worker aggregation
-└── middleware.ts                 ← Response-time headers
+└── proxy.ts                      ← Response-time + security headers
 ```
